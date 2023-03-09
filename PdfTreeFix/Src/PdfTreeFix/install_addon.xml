@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <CAT name="STATION">
+    <MOD name="AF">
+      <LEV1 name="ApiModules">
+        <Setting name="PdfTreeFix" ver="1" type="string">
+          <Default>
+            <Val>Vescon.PdfTreeFix.EplAddin</Val>
+          </Default>
+        </Setting>
+      </LEV1>
+    </MOD>
+  </CAT>
+</Settings>

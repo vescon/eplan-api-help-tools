@@ -1,0 +1,27 @@
+{
+    "Name": "PH1",      // name of the placeholder (optional)
+     
+    "ClearAll": true,   // if TRUE, all existing variable sets will be removed from the placeholder (optional)
+
+    "Sets": [           // variables sets
+    {
+        "Name": "Set1",             // name of the set #1
+
+        "Variables": {              // variables of the set #1
+            "v1": "value11",
+            "v2": "value12",
+            "v3": "value13"
+        }
+    },
+    {
+        "Name": "Set2",             // name of the set #2
+
+        "Enabled":  true, 
+            
+        "Variables": {              // variables of the set #2
+            "v1": "value21",
+            "v2": { "EN": "value22 (English)", "DE": "wert22 (Deutsch)" },  // multilanguage values
+            "v3": "value23"
+        }
+    }]
+}

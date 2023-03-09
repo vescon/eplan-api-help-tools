@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+	<CAT name="INSTALL">
+		<MOD name="AF">
+			<!-- The ApplicationModifier is the unique identifier for this addon. No spaces are allowed! -->
+			<Setting name="ApplicationModifier" ver="1" type="string" info="Name modification for specific application configuration">
+				<Default>
+					<Val>PdfTreeFix</Val>
+				</Default>
+			</Setting>
+		</MOD>
+	</CAT>
+	<CAT name="STATION">
+		<MOD name="SYSTEM">
+			<LEV1 name="PdfTreeFix">
+				<Setting name="Version" ver="1" type="string" info="patched version nr">
+					<Default>
+						<Val>2.3.5.4</Val>
+					</Default>
+				</Setting>
+				<!-- When this is true, all version numbers of all dlls is checked for a match. Normally this is false -->
+				<Setting name="CheckBinaryCompability" ver="1" type="bool" info="version of binaries must fit">
+					<Default>
+						<Val>false</Val>
+					</Default>
+				</Setting>
+				<!-- when this is true, all version numbers of all dlls is checked for a match INCLUSIVE the build number. Normally this is false -->
+				<Setting name="CheckBinaryCompabilityWithBuild" ver="1" type="bool" info="version and build level of binaries must fit">
+					<Default>
+						<Val>false</Val>
+					</Default>
+				</Setting>
+				<!-- This license is needed for this addon. When it's missing, a dialog tells it to the user. -->
+				<Setting name="LicenceNeeded" ver="1" type="string" desc="124" info="">
+					<Default>
+						<Val>0</Val>
+					</Default>
+				</Setting>
+				<!-- This node describes the main versions, this addon belongs to. -->
+				<LEV2 name="MainVersion">
+					<!-- This node name is optional. When another main version is added, create a new node like p.e. "Fluid" and add the settings "Licences" and "Versions"-->
+					<LEV3 name="Basic">
+						<!-- This setting is the license identifier for the main version. All this licences MUST be available, then this addon is registered -->
+						<Setting name="Licences" ver="1" type="string" desc="124" info="">
+							<Default>
+								<Val>0</Val>
+							</Default>
+						</Setting>
+						<!-- This setting is the version identifier for the main version. ONE of this licences MUST be identical to the main version number, then this addon is registered. 
+							This setting can miss, then the version number of the addon must be identical with the main version number.
+							Missing is recommended.-->
+						<Setting name="Versions" ver="1" type="string" desc="124" info="">
+							<Default>
+								<Val>2.3</Val>
+							</Default>
+						</Setting>
+					</LEV3>
+				</LEV2>
+			</LEV1>
+		</MOD>
+	</CAT>
+</Settings>

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C5D40ED-25A3-48F5-8C57-001E86202031}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PlaceholderConfigLoader</RootNamespace>
+    <AssemblyName>Vescon.PlaceholderConfigLoader.EplAddin.1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <LangVersion>6</LangVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath Condition=" '$(TeamBuildOutDir)'=='' ">bin\Debug</OutputPath>
+    <OutputPath Condition=" '$(TeamBuildOutDir)'!='' ">$(TeamBuildOutDir)\Debug\Mdm\Client\Plugins\Eplan2</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>BasicCorrectnessRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath Condition=" '$(TeamBuildOutDir)'=='' ">bin\Release</OutputPath>
+    <OutputPath Condition=" '$(TeamBuildOutDir)'!='' ">$(TeamBuildOutDir)\Release\Mdm\Client\Plugins\Eplan2</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>BasicCorrectnessRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>..\..\StrongNameKeyFile\2067_Public.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eplan.EplApi.AFu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
+      <HintPath>..\packages\Eplan.EplApi.2.3.5.2\lib\Eplan.EplApi.AFu.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Eplan.EplApi.Baseu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
+      <HintPath>..\packages\Eplan.EplApi.2.3.5.2\lib\Eplan.EplApi.Baseu.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Eplan.EplApi.DataModelu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
+      <HintPath>..\packages\Eplan.EplApi.2.3.5.2\lib\Eplan.EplApi.DataModelu.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Eplan.EplApi.Guiu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
+      <HintPath>..\packages\Eplan.EplApi.2.3.5.2\lib\Eplan.EplApi.Guiu.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Eplan.EplApi.HEServicesu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
+      <HintPath>..\packages\Eplan.EplApi.2.3.5.2\lib\Eplan.EplApi.HEServicesu.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Eplan.EplApi.MasterDatau, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
+      <HintPath>..\packages\Eplan.EplApi.2.3.5.2\lib\Eplan.EplApi.MasterDatau.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Eplan.EplApi.Starteru, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=MSIL">
+      <HintPath>..\packages\Eplan.EplApi.2.3.5.2\lib\Eplan.EplApi.Starteru.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Eplan.EplApi.Systemu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
+      <HintPath>..\packages\Eplan.EplApi.2.3.5.2\lib\Eplan.EplApi.Systemu.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Eplan.EplSDK.WPF.DBu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
+      <HintPath>..\packages\Eplan.EplApi.2.3.5.2\lib\Eplan.EplSDK.WPF.DBu.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Eplan.EplSDK.WPF.Interfacesu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
+      <HintPath>..\packages\Eplan.EplApi.2.3.5.2\lib\Eplan.EplSDK.WPF.Interfacesu.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Eplan.EplSDK.WPFu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
+      <HintPath>..\packages\Eplan.EplApi.2.3.5.2\lib\Eplan.EplSDK.WPFu.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LoadAction.cs" />
+    <Compile Include="Misc\Extensions\Json.cs" />
+    <Compile Include="Data\PlaceholderConfig.cs" />
+    <Compile Include="Data\PlaceholderVariablesSet.cs" />
+    <None Include="AddinRegisterScript.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="AddinUnRegisterScript.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Compile Include="Misc\Extensions\EnumerableExtensions.cs" />
+    <Compile Include="Misc\EplAddin\ActionBase.cs" />
+    <Compile Include="Misc\EplAddin\ActionEnabledIfProjectOpen.cs" />
+    <Compile Include="Misc\EplAddin\ActionEnabledIfSingleMainFunctionSelected.cs" />
+    <Compile Include="Misc\EplAddin\AddinBase.cs" />
+    <Compile Include="Misc\EplAddin\ExceptionsHelper.cs" />
+    <Compile Include="Misc\EplAddin\IPmExtensionTab.cs" />
+    <Compile Include="Misc\EplAddin\PmExtensionAction.cs" />
+    <Compile Include="Misc\EplAddin\PmExtensionHelper.cs" />
+    <Compile Include="Misc\EplanHelper.cs" />
+    <Compile Include="Misc\Extensions\Pair.cs" />
+    <Compile Include="Misc\MessageBoxLocalizer.cs" />
+    <Compile Include="Misc\NotepadHelper.cs" />
+    <None Include="ExampleConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\Extensions\Other.cs" />
+    <Compile Include="Misc\Command.cs" />
+    <Compile Include="Addin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>"$(SolutionDir)..\RemoveNotRequiredEplanDllsAfterBuild.bat" "$(TargetDir)"
+
+set teambuildoutdir=$(TeamBuildOutDir)
+REM if "%25teambuildoutdir%25" == "" goto sign
+goto end
+
+:sign
+
+echo ************************************************************
+
+set cmdpath=$(SolutionDir)..\EplanPluginSigner\
+set signapp=$(SolutionDir)..\EplanPluginSigner\EplanPluginSigner.exe
+for /F %25%25i in ("%25cmdpath%25\users.txt") do call "%25cmdpath%25\sign.cmd" "%25signapp%25" %25%25i "$(TargetDir)$(TargetName).dll"
+for /F %25%25i in ("%25cmdpath%25\users.txt") do call "%25cmdpath%25\sign.cmd" "%25signapp%25" %25%25i "$(TargetDir)en\$(TargetName).resources.dll"
+
+echo ************************************************************
+
+:end</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

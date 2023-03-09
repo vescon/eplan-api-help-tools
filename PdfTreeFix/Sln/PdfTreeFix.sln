@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vescon.PdfTreeFix.EplAddin.2.3", "..\Src\PdfTreeFix\Vescon.PdfTreeFix.EplAddin.2.3.csproj", "{7C5D40ED-25A3-48F5-8C57-001E86202031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vescon.PdfTreeFix.EplAddin.2.6", "..\Src\PdfTreeFix\Vescon.PdfTreeFix.EplAddin.2.6.csproj", "{8309DB24-29DE-4390-8DE7-F1B07B9F6109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{43B84122-8AEA-4823-BD55-3910BB8FE5F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "..\Tests\TestApp\TestApp.csproj", "{22C988B9-258B-49DD-82FC-A6336D660F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests.2.6", "..\Tests\UnitTests\UnitTests.2.6.csproj", "{3FF5F75B-7E80-4D35-900C-91B11AA7574B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vescon.Eplan.Utilities.2.6", "..\Src\Vescon.Eplan.Utilities\Vescon.Eplan.Utilities.2.6.csproj", "{16B6C10D-9B8F-480D-B787-E703C8F3631B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vescon.Eplan.Utilities.2.3", "..\Src\Vescon.Eplan.Utilities\Vescon.Eplan.Utilities.2.3.csproj", "{47F4B316-3A53-49D4-9EFC-21338152DAF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests.2.3", "..\Tests\UnitTests\UnitTests.2.3.csproj", "{6AB3319F-5556-4657-AD76-D10DBB43C3F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vescon.PdfTreeFix.EplAddin", "..\Src\PdfTreeFix\Vescon.PdfTreeFix.EplAddin.csproj", "{23838C50-7691-4CDD-8984-7B53F869BEF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vescon.Eplan.Utilities.2.4", "..\Src\Vescon.Eplan.Utilities\Vescon.Eplan.Utilities.2.4.csproj", "{25AA751E-1828-4A05-B8F4-76665EB174C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vescon.PdfTreeFix.EplAddin.2.4", "..\Src\PdfTreeFix\Vescon.PdfTreeFix.EplAddin.2.4.csproj", "{863B1542-DF3B-4389-A87A-4B6E0ED6A525}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C5D40ED-25A3-48F5-8C57-001E86202031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5D40ED-25A3-48F5-8C57-001E86202031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5D40ED-25A3-48F5-8C57-001E86202031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5D40ED-25A3-48F5-8C57-001E86202031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8309DB24-29DE-4390-8DE7-F1B07B9F6109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8309DB24-29DE-4390-8DE7-F1B07B9F6109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8309DB24-29DE-4390-8DE7-F1B07B9F6109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8309DB24-29DE-4390-8DE7-F1B07B9F6109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C988B9-258B-49DD-82FC-A6336D660F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C988B9-258B-49DD-82FC-A6336D660F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C988B9-258B-49DD-82FC-A6336D660F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF5F75B-7E80-4D35-900C-91B11AA7574B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF5F75B-7E80-4D35-900C-91B11AA7574B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF5F75B-7E80-4D35-900C-91B11AA7574B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B6C10D-9B8F-480D-B787-E703C8F3631B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B6C10D-9B8F-480D-B787-E703C8F3631B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B6C10D-9B8F-480D-B787-E703C8F3631B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B6C10D-9B8F-480D-B787-E703C8F3631B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F4B316-3A53-49D4-9EFC-21338152DAF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F4B316-3A53-49D4-9EFC-21338152DAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F4B316-3A53-49D4-9EFC-21338152DAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F4B316-3A53-49D4-9EFC-21338152DAF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB3319F-5556-4657-AD76-D10DBB43C3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB3319F-5556-4657-AD76-D10DBB43C3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB3319F-5556-4657-AD76-D10DBB43C3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23838C50-7691-4CDD-8984-7B53F869BEF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23838C50-7691-4CDD-8984-7B53F869BEF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23838C50-7691-4CDD-8984-7B53F869BEF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23838C50-7691-4CDD-8984-7B53F869BEF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25AA751E-1828-4A05-B8F4-76665EB174C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25AA751E-1828-4A05-B8F4-76665EB174C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25AA751E-1828-4A05-B8F4-76665EB174C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25AA751E-1828-4A05-B8F4-76665EB174C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863B1542-DF3B-4389-A87A-4B6E0ED6A525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863B1542-DF3B-4389-A87A-4B6E0ED6A525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863B1542-DF3B-4389-A87A-4B6E0ED6A525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863B1542-DF3B-4389-A87A-4B6E0ED6A525}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22C988B9-258B-49DD-82FC-A6336D660F97} = {43B84122-8AEA-4823-BD55-3910BB8FE5F3}
+		{3FF5F75B-7E80-4D35-900C-91B11AA7574B} = {43B84122-8AEA-4823-BD55-3910BB8FE5F3}
+		{6AB3319F-5556-4657-AD76-D10DBB43C3F8} = {43B84122-8AEA-4823-BD55-3910BB8FE5F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2684C51-A7CF-42A2-A4A4-479501F13750}
+	EndGlobalSection
+EndGlobal

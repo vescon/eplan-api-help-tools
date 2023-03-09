@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaceholderConfigLoader", "PlaceholderConfigLoader\PlaceholderConfigLoader.csproj", "{7C5D40ED-25A3-48F5-8C57-001E86202031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaceholderConfigLoader.x64", "PlaceholderConfigLoader\PlaceholderConfigLoader.x64.csproj", "{8309DB24-29DE-4390-8DE7-F1B07B9F6109}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C5D40ED-25A3-48F5-8C57-001E86202031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5D40ED-25A3-48F5-8C57-001E86202031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5D40ED-25A3-48F5-8C57-001E86202031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5D40ED-25A3-48F5-8C57-001E86202031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8309DB24-29DE-4390-8DE7-F1B07B9F6109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8309DB24-29DE-4390-8DE7-F1B07B9F6109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8309DB24-29DE-4390-8DE7-F1B07B9F6109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8309DB24-29DE-4390-8DE7-F1B07B9F6109}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ft-tfs:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = PlaceholderConfigLoader\\PlaceholderConfigLoader.csproj
+		SccProjectName0 = PlaceholderConfigLoader
+		SccAuxPath0 = http://ft-tfs:8080/tfs/defaultcollection
+		SccLocalPath0 = PlaceholderConfigLoader
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = PlaceholderConfigLoader\\PlaceholderConfigLoader.x64.csproj
+		SccProjectName1 = PlaceholderConfigLoader
+		SccAuxPath1 = http://ft-tfs:8080/tfs/defaultcollection
+		SccLocalPath1 = PlaceholderConfigLoader
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
